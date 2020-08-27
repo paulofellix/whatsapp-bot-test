@@ -11,6 +11,7 @@ async function main() {
     const whatsappBot = new WhatsappBot({puppeteer: {
         headless: true
     }})
+    
     const app = express()
     app.use(express.json())
     app.use(cors())

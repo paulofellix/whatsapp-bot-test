@@ -61,7 +61,7 @@ class WhatsappBot {
             location: msg.location
         }
 
-        if (msgData.phoneNumber != '559294422262') return
+        // if (msgData.phoneNumber != '559294422262') return
 
         if (msgData.type != 'chat' && msgData.type != 'location') {
             await chat.sendMessage('Não entendo esse tipo de mensagem')
